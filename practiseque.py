@@ -14,18 +14,18 @@ else:
 
 # Example 9:Write a program to find squre root of given no
 x=int(input("enter a number"))
-y=math.sqrt(x)
-print(y)
+sqareroot=x**(0.5)
+print(sqareroot)
 
 # Example 4:Write a program to swap two variables without using third variable.
 # Example 5:Write a program to swap two variables using third variable.
-x=eval(input("enter a number"))
-y=eval(input("enter a second variable"))
-temp=x
-x=y
-y=temp
-print(x)
-print(y)
+# x=eval(input("enter a number"))
+# y=eval(input("enter a second variable"))
+# temp=x
+# x=y
+# y=temp
+# print(x)
+# print(y)
 # Example 6:Write a program to swap two variables using using Addition and Subtraction. 
 x=eval(input("enter a number"))
 y=eval(input("enter a second variable"))
