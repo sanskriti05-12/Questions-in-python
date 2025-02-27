@@ -20,8 +20,25 @@
 # Example 8: Write a program to add 5 in each elements in given list. [10,20,30,40,50]
 # Example 9: Write a program to add 5 in each elements in given tuple. (10,20,30,40,50)
 # Example 10: Write a program to create a list from given string
-x=int(input("enter a number"))
-if x==x[::-1]:
-    print("palindrome")
-else:
-    print("not palindrome")
+# x=int(input("enter a number"))
+# n=x
+# if x==x[::-1]:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# rev=0
+# while x>0:
+#     lastdigit=x%10
+#     rev=rev*10+lastdigit
+#     x=x//10
+# if n==rev:
+#     print("palindrome")
+# else :
+#     print("not palindrome")
+# fibonacci series
+n=15
+a=0
+b=1
+while a<=n:
+    print(a)
+    a,b=b,a+b
